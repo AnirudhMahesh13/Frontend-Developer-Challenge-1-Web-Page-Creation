@@ -1,0 +1,69 @@
+/* SearchSection.css */
+.search-section {
+    background: linear-gradient(to right, #75f0ae, #47d8dd);
+    padding: 150px 0; /* Adjust the padding-top value */
+    text-align: center;
+    border-radius: 8px;
+  }
+  
+  .search-section input {
+    padding: 15px;
+    width: 90%;
+    box-sizing: border-box;
+  }
+  
+  .section-text {
+    margin-bottom: 20px;
+  }
+  
+  .section-text h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  
+  .section-text p {
+    font-size: 18px;
+    font-weight: medium;
+  }
+  
+  .search-box input {
+    padding: 10px;
+    width: 60%;
+    box-sizing: border-box;
+  }
+  
+  .background-rectangle h2 {
+    margin: 20px 0;
+  }
+  
+  .interest-rectangles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .rectangle {
+    background-color: #f7f0f0;
+    color: #000000;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 20px;
+    border-color: #000000;
+    width: calc(20% - 20px); /* 6 rectangles in a row */
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .rectangle:hover {
+    background-color: #3498db;
+    color: #ffffff;
+  }
+  
+  /* Additional styling for the second row */
+  .interest-rectangles .rectangle:nth-child(n+7) {
+    width: calc(25% - 20px); /* 4 rectangles in a row */
+  }
+  
+  /* Other styles as needed */
+  

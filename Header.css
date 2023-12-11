@@ -1,0 +1,56 @@
+.header {
+  background-color: rgb(250, 250, 250);
+  padding: 10px;
+  font-size: bold;
+  
+}
+
+nav {
+  text-align: left; /* Optional: Center the menu within the header */
+  font-size: bold;
+  
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  display: flex; /* Display list items horizontally */
+  flex-direction: row;
+  font-size: bold;
+  
+}
+
+.nav-list li {
+  margin-right: 15px;
+  font-size: bold;
+
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: white;
+  font-size: bold;
+  
+  
+}
+/* Header.css */
+:root {
+  --header-background-light: rgb(250, 250, 250);
+  --header-background-dark: #1a1a1a;
+  --text-color-light: white;
+  --text-color-dark: white;
+}
+
+.header {
+  background-color: var(--header-background-light);
+  padding: 10px;
+  font-size: bold;
+  color: var(--text-color-light);
+}
+
+/* Add other styles as needed */
+
+.dark .header {
+  background-color: var(--header-background-dark);
+  color: var(--text-color-dark);
+}

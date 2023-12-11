@@ -1,0 +1,72 @@
+/* LeftFilterMenu.css */
+
+.left-filter-menu {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-left: 200px;
+  margin-right: 1675px;
+  position: relative;
+}
+
+.filter-header {
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.dropdown-header {
+  cursor: pointer;
+  padding: 8px;
+  background-color: rgb(11, 156, 223);
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  color: white;
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  background-color: #fff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  position: absolute; /* Change position to absolute */
+  z-index: 1;
+  width: 100%; /* Full width */
+  top: 100%; /* Position below the dropdown-header */
+  left: 0;
+  position: absolute;
+}
+
+.dropdown-content label {
+  display: block;
+  padding: 8px;
+  cursor: pointer;
+}
+
+/* Show the down arrow when the dropdown is open */
+.left-filter-menu .dropdown-header:hover {
+  background-color: #e5e5e5;
+}
+
+.left-filter-menu .dropdown-header.active {
+  background-color: #1e8bf0;
+  color: #dde6ec;
+  font-weight: bold;
+  position: relative;
+}
+
+.left-filter-menu .dropdown-content {
+  display: block;
+  position:relative;
+}

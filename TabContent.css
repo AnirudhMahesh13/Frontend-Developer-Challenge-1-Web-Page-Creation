@@ -1,0 +1,14 @@
+/* TabContent.css */
+/* Add styles for the tab content if needed */
+.tab-content {
+    padding: 20px;
+    background-color: #b71a1a;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-top: 10px;
+  }
+  
+  .tab-content h2 {
+    color: #db3453;
+  }
+  

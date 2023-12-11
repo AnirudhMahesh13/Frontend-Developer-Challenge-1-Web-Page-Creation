@@ -1,0 +1,36 @@
+/* LeftMenu.css */
+.left-menu {
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 8px;
+    width: 200px;
+    margin-left: 200px;
+    margin-top: -10px;
+    font-size: 26px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .left-menu p {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    color: #040404;
+    font-size: 16px; /* Adjust the font size */
+    font-weight: bold; 
+  }
+  
+  .left-menu p:hover {
+    background-color: #65a8f0;
+    color: #fdfdfd;
+  }
+  
+  /* Remove the title style */
+  .left-menu h2 {
+    display: none;
+  }
+  

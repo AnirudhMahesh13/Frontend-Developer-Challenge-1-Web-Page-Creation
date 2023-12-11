@@ -1,0 +1,195 @@
+/* App.css */
+.header {
+  background-color: #ffffff;
+  padding: 10px;
+  display: flex;
+  align-items: center; /* Center items along the cross axis (vertically) */
+  font-weight: bold;
+}
+.prepr img {
+  width: 100px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 50px;
+}
+
+
+.bell img {
+  width: 30px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-left: 700px;
+  margin-right: 10px;
+}
+
+.bell img:hover {
+  filter: brightness(1.5); /* Change brightness to highlight on hover */
+}
+
+.chat img {
+  width: 30px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 10px;
+}
+
+.chat img:hover {
+  filter: brightness(1.5); /* Change brightness to highlight on hover */
+}
+
+.question img {
+  width: 30px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 10px;
+}
+
+.question img:hover {
+  filter: brightness(1.5); /* Change brightness to highlight on hover */
+}
+
+.search-box {
+  margin-right: 20px
+}
+.pfp img {
+  width: 40px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 20px
+}
+
+.pfp img:hover {
+  filter: brightness(1.5); /* Change brightness to highlight on hover */
+}
+
+
+.waffle img {
+  width: 40px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+
+}
+
+.waffle img:hover {
+  filter: brightness(1.5); /* Change brightness to highlight on hover */
+}
+nav {
+  text-align: center; /* Optional: Center the menu within the header */
+  font-weight: bold;
+  
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  display: flex; /* Display list items horizontally */
+  margin-left: auto;
+  font-weight: bold;
+  
+}
+
+.nav-list li {
+  margin-right: 15px;
+  font-weight: bold;
+  
+}
+
+.nav-list a {
+  
+  text-decoration: none;
+  color: rgb(97, 95, 95);
+  font-weight: bold;
+}
+
+.nav-list a:hover {
+  color: rgb(35, 217, 38); /* Change the color on hover */
+  font-weight: bold;
+}
+
+
+.search-box-center {
+  margin-right: 200px
+}
+
+body {
+  background-color: #f0f0f0; /* Set your desired background color */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  font-family: 'Arial', sans-serif; /* Set your desired font-family */
+}
+
+
+
+
+
+/* App.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.light {
+  background-color: #f0f0f0;
+  color: #000;
+}
+
+.dark {
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+.header {
+  background-color: #ffffff;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  color: var(--text-color);
+}
+
+/* Add more styles as needed for other elements */
+
+.switch {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.switch-label {
+  margin-right: 5px;
+}
+
+.switch input {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+.switch input + label {
+  cursor: pointer;
+  text-indent: -9999px;
+  width: 40px;
+  height: 20px;
+  background: #888;
+  display: block;
+  border-radius: 20px;
+  position: relative;
+}
+
+.switch input:checked + label {
+  background: #29b6f6;
+}
+
+.switch label:after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 16px;
+  height: 16px;
+  background: #fff;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.switch input:checked + label:after {
+  left: calc(100% - 2px);
+  transform: translateX(-100%);
+}

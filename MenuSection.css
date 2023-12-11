@@ -1,0 +1,33 @@
+/* MenuSection.css */
+.menu-section {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffffff;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .menu-section button {
+    background: none;
+    border: none;
+    color: #050505;
+    cursor: pointer;
+    font-size: 26px;
+    font-weight: bold;
+  }
+  
+  .menu-section button.active {
+    color: #1c92e0;
+    font-weight: bold;
+
+  }
+
+
+  
+  
+
+  
